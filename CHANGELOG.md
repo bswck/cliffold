@@ -7,3 +7,10 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 <!-- insertion marker -->
 
+## [v0.0.0](https://github.com/bswck/cliffold/tree/v0.0.0) (2023-12-08)
+
+
+### Changed
+
+- Added project short description and research document generation.
+- Published PyPI package name reservation release.
