@@ -1,7 +1,7 @@
 <!--
-This file was generated from bswck/skeleton@16e99df.
+This file was generated from bswck/skeleton@ea3be8a.
 Instead of changing this particular file, you might want to alter the template:
-https://github.com/bswck/skeleton/tree/16e99df/fragments/contributing.md
+https://github.com/bswck/skeleton/tree/ea3be8a/fragments/contributing.md
 -->
 # Contributing to [cliffold](https://github.com/bswck/cliffold) 🎉
 Contributions are very welcome. 🚀
@@ -45,9 +45,9 @@ Ready to contribute? Here's a quick guide on how to set up cliffold and make a c
 
 
 <!--
-This section was generated from bswck/skeleton@16e99df.
+This section was generated from bswck/skeleton@ea3be8a.
 Instead of changing this particular file, you might want to alter the template:
-https://github.com/bswck/skeleton/tree/16e99df/fragments/guide.md
+https://github.com/bswck/skeleton/tree/ea3be8a/fragments/guide.md
 -->
 
 > [!Note]
