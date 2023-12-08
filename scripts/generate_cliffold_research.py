@@ -28,7 +28,7 @@ RESEARCH_INTRO = f"""
 
 This document contains the `--help` output of the following CLIs:
 
-- {'\n- '.join(map(lambda cli: cli.join("``") + ",", CLIs))}
+- {'\n- '.join(map(lambda cli: cli.join("``") + ",", CLIs))[:-1] + '.'}
 
 It was made in order to study patterns to extract information needed for designing the Cliffold scaffolding mechanism.
 
