@@ -2,12 +2,13 @@
 # Research
 
 This document contains the `--help` output of the following CLIs:
-`git`,
+
+- `git`,
 - `towncrier`,
 - `poetry`,
 - `pre-commit`,
 - `ruff`,
-- `pyenv`,
+- `pyenv`.
 
 It was made in order to study patterns to extract information needed for designing the Cliffold scaffolding mechanism.
 
