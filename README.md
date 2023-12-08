@@ -23,6 +23,10 @@ git.init()
 git.commit(message="Initial commit")
 ```
 
+To make this possible, `cliffold` is currently in its research and collects CLI outputs.
+Feel free to submit your CLI propositions with installation methods in [#1](https://github.com/bswck/cliffold/issues/1).
+See [cliffold_research.md](https://github.com/bswck/cliffold/blob/HEAD/cliffold_research.md) to check out the current research results.
+
 # Installation
 If you want to…
 
