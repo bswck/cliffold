@@ -1,0 +1,21 @@
+_commit: 16e99df
+_src_path: gh:bswck/skeleton
+author_username: bswck
+docs: true
+docs_slug: cliffold
+email_address: bswck.dev@gmail.com
+github_username: bswck
+license_name: MIT
+org_full_name: Bartosz Sławecki
+package_name: cliffold
+project_description: Analyze --help outputs of CLIs to generate programmatic client
+    libraries.
+publish_on_pypi: true
+pypi_project_description: Analyze --help outputs of CLIs to generate programmatic
+    client libraries.
+pypi_project_name: cliffold
+python_version: '3.8'
+repo_name: cliffold
+test_suite: true
+use_precommit: true
+visibility: public
