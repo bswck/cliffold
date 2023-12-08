@@ -4,11 +4,11 @@
 This document contains the `--help` output of the following CLIs:
 
 - `git`,
-- `towncrier`,
 - `poetry`,
 - `pre-commit`,
+- `pyenv`,
 - `ruff`,
-- `pyenv`.
+- `towncrier`.
 
 It was made in order to study patterns to extract information needed for designing the Cliffold scaffolding mechanism.
 
@@ -62,38 +62,6 @@ collaborate (see also: git help workflows)
 concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
-```
-
-
-## towncrier
-
-```
-Usage: towncrier [OPTIONS] COMMAND [ARGS]...
-
-  Towncrier is a utility to produce useful, summarised news files for your
-  project. Rather than reading the Git history as some newer tools to produce
-  it, or having one single file which developers all write to, towncrier reads
-  "news fragments" which contain information useful to end users.
-
-  Towncrier delivers the news which is convenient to those that hear it, not
-  those that write it.
-
-  That is, a “news fragment” (a small file containing just enough information
-  to be useful to end users) can be written that summarises what has changed
-  from the “developer log” (which may contain complex information about the
-  original issue, how it was fixed, who authored the fix, and who reviewed the
-  fix). By compiling a collection of these fragments, towncrier can produce a
-  digest of the changes which is valuable to those who may wish to use the
-  software.
-
-Options:
-  --version  Show the version and exit.
-  --help     Show this message and exit.
-
-Commands:
-  build*  Build a combined news file from news fragment.
-  check   Check for new fragments on a branch.
-  create  Create a new news fragment.
 ```
 
 
@@ -167,36 +135,6 @@ options:
 ```
 
 
-## ruff
-
-```
-Ruff: An extremely fast Python linter.
-
-Usage: ruff [OPTIONS] <COMMAND>
-
-Commands:
-  check    Run Ruff on the given files or directories (default)
-  rule     Explain a rule (or all rules)
-  config   List or describe the available configuration options
-  linter   List all supported upstream linters
-  clean    Clear any caches in the current directory and any subdirectories
-  format   Run the Ruff formatter on the given files or directories
-  version  Display Ruff's version
-  help     Print this message or the help of the given subcommand(s)
-
-Options:
-  -h, --help     Print help
-  -V, --version  Print version
-
-Log levels:
-  -v, --verbose  Enable verbose logging
-  -q, --quiet    Print diagnostics, but nothing else
-  -s, --silent   Disable all logging (but still exit with status code "1" upon detecting diagnostics)
-
-For help with a specific command, see: `ruff help <command>`.
-```
-
-
 ## pyenv
 
 ```
@@ -238,4 +176,66 @@ Some useful pyenv commands are:
 
 See `pyenv help <command>' for information on a specific command.
 For full documentation, see: https://github.com/pyenv/pyenv#readme
+```
+
+
+## ruff
+
+```
+Ruff: An extremely fast Python linter.
+
+Usage: ruff [OPTIONS] <COMMAND>
+
+Commands:
+  check    Run Ruff on the given files or directories (default)
+  rule     Explain a rule (or all rules)
+  config   List or describe the available configuration options
+  linter   List all supported upstream linters
+  clean    Clear any caches in the current directory and any subdirectories
+  format   Run the Ruff formatter on the given files or directories
+  version  Display Ruff's version
+  help     Print this message or the help of the given subcommand(s)
+
+Options:
+  -h, --help     Print help
+  -V, --version  Print version
+
+Log levels:
+  -v, --verbose  Enable verbose logging
+  -q, --quiet    Print diagnostics, but nothing else
+  -s, --silent   Disable all logging (but still exit with status code "1" upon detecting diagnostics)
+
+For help with a specific command, see: `ruff help <command>`.
+```
+
+
+## towncrier
+
+```
+Usage: towncrier [OPTIONS] COMMAND [ARGS]...
+
+  Towncrier is a utility to produce useful, summarised news files for your
+  project. Rather than reading the Git history as some newer tools to produce
+  it, or having one single file which developers all write to, towncrier reads
+  "news fragments" which contain information useful to end users.
+
+  Towncrier delivers the news which is convenient to those that hear it, not
+  those that write it.
+
+  That is, a “news fragment” (a small file containing just enough information
+  to be useful to end users) can be written that summarises what has changed
+  from the “developer log” (which may contain complex information about the
+  original issue, how it was fixed, who authored the fix, and who reviewed the
+  fix). By compiling a collection of these fragments, towncrier can produce a
+  digest of the changes which is valuable to those who may wish to use the
+  software.
+
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
+
+Commands:
+  build*  Build a combined news file from news fragment.
+  check   Check for new fragments on a branch.
+  create  Create a new news fragment.
 ```

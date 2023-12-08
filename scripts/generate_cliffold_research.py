@@ -1,14 +1,14 @@
 import pathlib
 import subprocess
 
-CLIs = (
+CLIs = sorted((
     "git",
     "towncrier",
     "poetry",
     "pre-commit",
     "ruff",
     "pyenv",
-)
+))
 
 sections = []
 
