@@ -26,7 +26,7 @@ for cli in CLIs:
 RESEARCH_INTRO = f"""
 # Research
 
-This document contains the `--help` output of the following CLIs:
+This document contains the `--help` outputs of the following CLIs:
 
 - {'\n- '.join(map(lambda cli: cli.join("``") + ",", CLIs))[:-1] + '.'}
 

@@ -8,7 +8,20 @@
 [![License](https://img.shields.io/github/license/bswck/cliffold.svg?label=License)](https://github.com/bswck/cliffold/blob/HEAD/LICENSE)
 [![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
-Analyze --help outputs of CLIs to generate programmatic client libraries.
+Analyze `--help` outputs of CLIs to generate programmatic client libraries.
+
+# The idea
+
+1. `cliffold scaffold-cli-lib git --dest=cliffold/git`
+2. Thanks to `--help` output, cliffold generates a Python library that can be used to interact with the CLI:
+```py
+from cliffold.git import Git
+
+git = Git()
+print(git.version)
+git.init()
+git.commit(message="Initial commit")
+```
 
 # Installation
 If you want to…
