@@ -11,11 +11,9 @@
 Analyze --help outputs of CLIs to generate programmatic client libraries.
 
 # Installation
-If you want to…
 
 
 
-## …use this tool in your project 💻
 You might simply install it with pip:
 
 ```shell
@@ -28,12 +26,12 @@ If you use [Poetry](https://python-poetry.org/), then run:
 poetry add cliffold
 ```
 
-## …contribute to [cliffold](https://github.com/bswck/cliffold) 🚀
+## For contributors
 
 <!--
-This section was generated from bswck/skeleton@ea3be8a.
+This section was generated from bswck/skeleton@01e08d2.
 Instead of changing this particular file, you might want to alter the template:
-https://github.com/bswck/skeleton/tree/ea3be8a/fragments/guide.md
+https://github.com/bswck/skeleton/tree/01e08d2/fragments/guide.md
 -->
 
 !!! Note
